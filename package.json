@@ -1,6 +1,6 @@
 {
-    "name": "tronweb",
-    "version": "3.2.6",
+    "name": "bce-web",
+    "version": "1.0.1",
     "description": "JavaScript SDK that encapsulates the TRON HTTP API",
     "main": "dist/TronWeb.node.js",
     "scripts": {
@@ -14,11 +14,6 @@
         "test:browser": "npm run-script newaccount && node scripts/test-browser.js && npx karma start --single-run --browsers ChromeHeadless",
         "coverage": "npm run-script test:browser && npm run-script test",
         "btest": "npm run build:dev && npm run test"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "node ./scripts/pre-commit.js"
-        }
     },
     "dependencies": {
         "@babel/runtime": "^7.0.0",
