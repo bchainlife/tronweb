@@ -1,6 +1,6 @@
 {
     "name": "bce-web",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "JavaScript SDK that encapsulates the TRON HTTP API",
     "main": "dist/TronWeb.node.js",
     "scripts": {
